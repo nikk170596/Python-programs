@@ -1,0 +1,12 @@
+1) Global Varibale : Variable which are declared outside of the function and has access in whole program. "global" keyword is used inside the function to make the variable gloabl.
+2) local Variable : Variable which are declared inside the function and has scope only in that function.
+
+#Example of Global and Local variable
+
+var = "Hello"                  #Global Variable
+def get_value():
+    global b                   # keyword global is used to make the variable global inside the fucntion
+    b = 25                     # local Variable
+    print(b)
+
+get_value()
