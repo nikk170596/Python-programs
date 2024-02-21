@@ -1,0 +1,20 @@
+i = 10
+
+#Multiple Assignments:
+x,y,z = 10,20,30
+   
+#Assigning Values Using Input:
+name = input("Enter the word: ")
+
+#Assigning Values in a Loop:
+numbers = [1, 2, 3, 4, 5]
+for num in numbers:
+    square = num ** 2
+    
+#Chained Assignments:
+    a = b = c = 50
+    
+print(f"assign value to variable i is { i}")
+print(f"Output of the Multiple Assignments variable is {x,y,z}")
+print(f"Assigning Values in a Loop {square}")
+print(f"Chained Assignments {a,b,c}")
