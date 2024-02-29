@@ -1,0 +1,11 @@
+#with using len function
+a = "machine learning"
+print("length of the string With using len function ", len(a)) 
+
+print("-----------------------------------------")
+
+#without using len function
+l = 0
+for i in a:
+    l = l +1
+print("length of the string Without using len function", l)
