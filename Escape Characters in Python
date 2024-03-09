@@ -1,0 +1,12 @@
+"""Escape characters in Python are special characters preceded 
+by a backslash (\) to represent characters that are difficult to input directly into a string.
+"""
+# \n Newline
+print("Hello\nWorld")      
+
+#\t: Tab, use for add some extra spaces
+print("Name:\tJohn")
+
+# \' and \": Single and Double Quotes
+print('It\'s raining.')
+print("She said, \"Hello!\"")
